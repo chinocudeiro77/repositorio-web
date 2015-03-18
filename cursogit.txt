@@ -1,0 +1,20 @@
+git config
+git init
+git status
+git log
+.gitignore: fichero para que git ignore ciertos ficheros o carpetas.
+
+git add . | git add "nombreDeFichero"
+git commit -a | -m "descripcion"
+
+git reset
+git revert <hash> = git reset hard: vuelve por completo al naterior commit
+
+git branch: para ver la rama en la que estamos
+git checkout -b <nombre de la rama>: Para crear una rama nueva
+git checkout <nombre  de la rama>: para cambiar de rama
+git tag -a <tag number> -m <mensaje>
+git show
+git merge <--no-ff> <branch_name>: opcion --no-ff para que solo una el ultimo commit y no todos los que han sido creados en cada rama.
+
+git log --oneline --decorate --graph: para ver graficamente las ramas

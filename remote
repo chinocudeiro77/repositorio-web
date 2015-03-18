@@ -1,0 +1,7 @@
+git remote add origin <dir github>
+
+git fetch origin
+
+git push origin
+
+git clone <dir_repo>
